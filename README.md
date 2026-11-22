@@ -37,9 +37,11 @@ replies never count.
 
 ## Files
 
-- `meme.png` — the meme (AI-generated with gpt-image-2 via Xingchiapi,
-  then checked by eye: ghost + "make.fun" sign clearly visible at
-  480×480).
+- `meme.png` — the meme (AI-generated with the built-in image pipeline;
+  Xingchiapi's image models were tried first but the relay group has
+  image generation disabled — 403 for both gpt-image-2 and
+  gpt-image-2.5-flare; checked by eye: ghost + "make.fun" sign clearly
+  visible at 480×480).
 - `POST.json` — the X post's address.
 - `main.ts` — Node 22, standard library only; copies `POST.json` to
   `/output/POST.json`. That is all the program has to do.
