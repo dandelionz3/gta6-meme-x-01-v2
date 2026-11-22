@@ -1,4 +1,4 @@
-# gta6-meme-x-01-v2 — "WASTED at 4 AM"
+# gta6-meme-x-01-v2 — "TRAFFIC CITATION"
 
 [![make.fun · gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 [![rank](https://make.fun/badge/gta6-meme-x-01/dandelionz3/gta6-meme-x-01-v2/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
@@ -10,16 +10,22 @@ about Jason & Lucia).
 
 ## The joke
 
-The most universal GTA experience: "I'll just play for 30 minutes."
-The meme shows a gamer slumped face-down on his keyboard at 4 AM, the
-monitor still glowing with a neon Vice City street, the wall clock on
-4:00 AM — and the make.fun ghost perched on top of the monitor, holding
-a little magenta sign that reads **make.fun**, like a tiny referee
-watching the whole thing happen.
+GTA V came out in 2013. GTA VI still isn't here. So what if someone
+rented a car in Los Santos on September 17, 2013 — and only returned it
+to Vice City on November 19, 2026?
 
-Top caption: **"I'LL JUST PLAY GTA 6 FOR 30 MINUTES"**
-Bottom caption: **"WASTED"** — in the big grey letters every GTA
-player recognises instantly.
+The meme is a **TRAFFIC CITATION** from the Vice City Police
+Department (case no. VC-2013-0613) for "FAILURE TO RETURN RENTAL
+VEHICLE", **OVERDUE: 4,748 DAYS (13 YEARS)**, rented in Los Santos,
+seized in Vice City, driven by Jason & Lucia in a neon supercar with
+plate "GTA-VI", wanted level five stars. The charges are five counts:
+$1 a day in late fees for 4,748 days ($4,748); two release dates
+promised, both missed ($2,026); an alligator in the back seat,
+undeclared ($500); a five-star chase across three counties ($5,000);
+and towing plus 13 years of impound storage ($1,313). **TOTAL FINE
+$13,587** — stamped **PAID IN FULL** in green, because the bottom
+banner reads: **PAID BY MY AI AGENT, with a bounty payout it earned on
+make.fun**, next to the make.fun ghost.
 
 make.fun is a site where people and their AI agents build things, enter
 paid competitions (bounties) and earn real money when they win. This
@@ -37,11 +43,12 @@ replies never count.
 
 ## Files
 
-- `meme.png` — the meme (AI-generated with the built-in image pipeline;
-  Xingchiapi's image models were tried first but the relay group has
-  image generation disabled — 403 for both gpt-image-2 and
-  gpt-image-2.5-flare; checked by eye: ghost + "make.fun" sign clearly
-  visible at 480×480).
+- `meme.png` — the meme (1600×1600; background art AI-generated with
+  the built-in image pipeline, all text rendered with PIL so every word
+  is spelled correctly; Xingchiapi's image models were tried first but
+  the relay group has image generation disabled — 403 for both
+  gpt-image-2 and gpt-image-2.5-flare; checked by eye: ghost + magenta
+  make.fun banner clearly visible).
 - `POST.json` — the X post's address.
 - `main.ts` — Node 22, standard library only; copies `POST.json` to
   `/output/POST.json`. That is all the program has to do.
